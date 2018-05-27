@@ -1,0 +1,70 @@
+body {
+	font-family: sans-serif;
+}
+
+.employeeList h1 {
+	font-size: 16pt;
+}
+
+.employeeList ul {
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+} 
+
+.employeeList ul li:first-child {
+	border-top: 0px;
+} 
+
+.employeeList ul li {
+	border-top: 1px solid #cccccc;
+} 
+
+.spittleTime {
+	font-size: 8pt;
+}
+
+.spittleLocation {
+	font-size: 8pt;
+}
+
+.employeeForm h1 {
+	font-size: 16pt;
+}
+
+#customers
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:50%;
+	border-collapse:collapse;
+	alignment: center;
+}
+#customers td, #customers th
+{
+	font-size:1em;
+	border:1px solid #000000;
+	padding:3px 7px 2px 7px;
+	height:45px;
+	text-align:center;
+	vertical-align:middle;
+
+}
+#customers th
+{
+	font-size:1.1em;
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#000000;
+	color:#ffffff;
+	text-align:center;
+	vertical-align: middle;
+	height: 45px;
+	font-weight:normal;
+}
+#customers tr.alt td
+{
+	color:#000000;
+	background-color:#D3D3D3;
+}
+
